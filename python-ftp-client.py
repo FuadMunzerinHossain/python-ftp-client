@@ -155,6 +155,7 @@ while True:
             print('Not deleting ' + cmd_args + ".")
 
     elif cmd == 'quit':
+        ftp.close()
         break
 
 
